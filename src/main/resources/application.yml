@@ -1,0 +1,10 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://localhost:10000/emlakProje
+    username: admin
+    password: 12345
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
